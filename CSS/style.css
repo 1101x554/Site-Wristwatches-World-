@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #faf7f4;
+    color: #000000;
+    line-height: 1.8;
+    padding: 40px 20px;
+}
+
+/* Container */
+body > * {
+    max-width: 100%;
+    padding: 0 40px;
+}
+
+/* Titlu principal */
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Subtitluri */
+h2 {
+    font-size: 1.3rem;
+    color: #8b6914;
+    margin: 30px 0 12px;
+    letter-spacing: 1px;
+    border-left: 4px solid #c9a84c;
+    padding-left: 12px;
+}
+
+/* Paragrafe */
+p {
+    margin-bottom: 16px;
+    font-size: 1rem;
+    color: #3a3a3a;
+}
+
+/* Linie separatoare */
+hr {
+    border: none;
+    border-top: 1px solid #c9a84c;
+    margin: 30px auto;
+    max-width: 1700px;
+}
+
+/* Navigare - lista */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #af800a;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: color 0.2s ease;
+}
+
+ul li a:hover {
+    color: #c9a84c;
+    text-decoration: underline;
+}
+
+/* SVG icon  */
+div[align="right"] {
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+div[align="right"] svg {
+    opacity: 0.67;
+    transition: opacity 0.3s ease;
+}
+
+div[align="right"] svg:hover {
+    opacity: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.8em 0 1.5em;
+    border-radius: 4px;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #a5a3a3;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+input[type="submit"] {
+    background: #b8860b;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background: #df9b1d;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+    }
+    body {
+        padding: 15px 20px;
+    }
+    .footer-icon svg {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
